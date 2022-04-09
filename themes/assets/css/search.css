@@ -1,15 +1,17 @@
 .container-1 input#search {
-   width: 300px;
+   width: 340px;
    height: 50px;
-   background: #2b303b;
+   background: #5a5a5a;
    border: none;
    font-size: 10pt;
    float: left;
-   color: #262626;
-   padding-left: 45px;
-   -webkit-border-radius: 5px;
-   -moz-border-radius: 5px;
-   border-radius: 5px;
+   color:#5a5a5a;
+   padding-right: 20px;
+   padding-left: 50px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+
 
 
    -webkit-transition: background .55s ease;

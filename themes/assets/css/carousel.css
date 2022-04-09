@@ -23,10 +23,12 @@ body {
   padding-left: 0;
   padding-right: 0;
 }
+
 .navbar-wrapper .navbar {
   padding-left: 15px;
   padding-right: 15px;
 }
+
 
 
 /* CUSTOMIZE THE CAROUSEL
@@ -36,17 +38,19 @@ body {
 #mainCarousel .carousel {
   height: 450px;
 }
+
 /* Since positioning the image, we need to help out the caption */
-#mainCarousel  .carousel-caption {
+#mainCarousel .carousel-caption {
   z-index: 10;
 }
 
 /* Declare heights because of positioning of img element */
-#mainCarousel  .carousel .item {
+#mainCarousel .carousel .item {
   height: 450px;
   background-color: #777;
 }
-#mainCarousel  .carousel-inner > .item > img {
+
+#mainCarousel .carousel-inner>.item>img {
   position: absolute;
   top: 0;
   left: 0;
@@ -70,9 +74,11 @@ body {
   text-align: center;
   margin-bottom: 20px;
 }
+
 .marketing h2 {
   font-weight: normal;
 }
+
 .marketing .col-lg-4 p {
   margin-left: 10px;
   margin-right: 10px;
@@ -83,7 +89,8 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 80px 0;
+  /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -95,42 +102,198 @@ body {
 
 
 /* Custom CSS =========================================== */
-.navbar-inverse {background-color: #efefef; border-color: #FF5200;}
-.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus,
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {color: #fff; background-color: #c83a3a;}
-.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {background-color: #e4dcd2;}
-.navbar-inverse .navbar-toggle {border-color: #c83a3a;}
-.navbar-inverse .navbar-nav > li > a{color:#000}
-.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{color:#C83A3A}
-a{color:#fff}
-a:hover{color:#eee}
-.marketing img{max-width:100%}
-.carousel-caption {color: #000000;}
-.carousel-caption  h1{background-color: #eb4800;color: #fff;display:inline-block;padding:4px 18px; width: auto;-ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=80)';opacity: 0.8;}
-.dsc {background-color: #757575;color: #fff;display: inline-block;padding: 4px 18px; width: auto;-ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=80)';opacity: 0.8;}
-.highlightSection{padding:28px 0}
-.highlightSection img{padding:0 0 28px 0}
-.highlightSection .media{background-color: #efefef;border: 1px solid #efefef;color: #939393;padding: 10px;text-align: center;}
-.introSection{background-color: #efefef; padding:28px 0}
-.brandBtn{background-color: #7db641;}
-.btn-default{color: #fff;background-color: #7db641;border-color: #7db641;border-radius:0}
-.btn-default.active, .open .dropdown-toggle.btn-default, .btn-default:hover, .btn-default:focus, .btn-default:active {color: #fff;background-color: #c83a3a ;border-color: #c83a3a ;}
-.text-primary-theme {color: #7db641;}
-.text-danger-theme {color: #FF007A;}
-.carousel-control.right, .carousel-control.left,
-#myCarousel1 .carousel-control.right, #myCarousel1 .carousel-control.left,
-#myCarousel2 .carousel-control.right, #myCarousel2 .carousel-control.left {background: none;color: #057C00;font-size: 3em; width: 6%;}
-.itemsTitle{border-bottom: 1px solid #e7e7e7;padding: 8px 30px;font-size: 20px;text-transform: uppercase;position: relative;margin-bottom: 20px;text-align:center}
-#myCarousel .container{padding:0}
-#mainCarousel .carousel .item {height: 450px;background-color: #FFF;}
-footer{padding:18px 0; background:#111; color:#fff;}
-.marketing{padding:28px 0}
-.pageTitle{padding:18px 0; border-top:1px solid #efefef; margin-top:92px; background:#efefef}
-.pageTitle h2{padding:0; margin:0}
-.bodyInner{padding:28px 0}
-.carousel-caption {bottom: 61px;}
-.mainTitle {padding: 4px 0;border-top: 1px solid #FF8500;background: #FAFAFA;color: #0C0C0C;text-align: center;box-shadow: 0 0 24px #D5D5D5;}
-.cntr{text-align:center}
+.navbar-inverse {
+  background-color: #efefef;
+  border-color: #FF5200;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+  color: #fff;
+  background-color: #c83a3a;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #e4dcd2;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #c83a3a;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #000
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+  color: #C83A3A
+}
+
+a {
+  color: #fff
+}
+
+a:hover {
+  color: #eee
+}
+
+.marketing img {
+  max-width: 100%
+}
+
+.carousel-caption {
+  color: #000000;
+}
+
+.carousel-caption h1 {
+  background-color: #eb4800;
+  color: #fff;
+  display: inline-block;
+  padding: 4px 18px;
+  width: auto;
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=80)';
+  opacity: 0.8;
+}
+
+.dsc {
+  background-color: #757575;
+  color: #fff;
+  display: inline-block;
+  padding: 4px 18px;
+  width: auto;
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=80)';
+  opacity: 0.8;
+}
+
+.highlightSection {
+  padding: 28px 0
+}
+
+.highlightSection img {
+  padding: 0 0 28px 0
+}
+
+.highlightSection .media {
+  background-color: #efefef;
+  border: 1px solid #efefef;
+  color: #939393;
+  padding: 10px;
+  text-align: center;
+}
+
+.introSection {
+  background-color: #efefef;
+  padding: 28px 0
+}
+
+.brandBtn {
+  background-color: #7db641;
+}
+
+.btn-default {
+  color: #fff;
+  background-color: #7db641;
+  border-color: #7db641;
+  border-radius: 0
+}
+
+.btn-default.active,
+.open .dropdown-toggle.btn-default,
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active {
+  color: #fff;
+  background-color: #c83a3a;
+  border-color: #c83a3a;
+}
+
+.text-primary-theme {
+  color: #7db641;
+}
+
+.text-danger-theme {
+  color: #FF007A;
+}
+
+.carousel-control.right,
+.carousel-control.left,
+#myCarousel1 .carousel-control.right,
+#myCarousel1 .carousel-control.left,
+#myCarousel2 .carousel-control.right,
+#myCarousel2 .carousel-control.left {
+  background: none;
+  color: #057C00;
+  font-size: 3em;
+  width: 6%;
+}
+
+.itemsTitle {
+  border-bottom: 1px solid #e7e7e7;
+  padding: 8px 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 20px;
+  text-align: center
+}
+
+#myCarousel .container {
+  padding: 0
+}
+
+#mainCarousel .carousel .item {
+  height: 450px;
+  background-color: #FFF;
+}
+
+footer {
+  padding: 18px 0;
+  background: #111;
+  color: #fff;
+}
+
+.marketing {
+  padding: 28px 0
+}
+
+.pageTitle {
+  padding: 18px 0;
+  border-top: 1px solid #efefef;
+  margin-top: 92px;
+  background: #efefef
+}
+
+.pageTitle h2 {
+  padding: 0;
+  margin: 0
+}
+
+.bodyInner {
+  padding: 28px 0
+}
+
+.carousel-caption {
+  bottom: 61px;
+}
+
+.mainTitle {
+  padding: 4px 0;
+  border-top: 1px solid #FF8500;
+  background: #FAFAFA;
+  color: #0C0C0C;
+  text-align: center;
+  box-shadow: 0 0 24px #D5D5D5;
+}
+
+.cntr {
+  text-align: center
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -142,16 +305,19 @@ footer{padding:18px 0; background:#111; color:#fff;}
     padding-left: 0;
     padding-right: 0;
   }
+
   /* Navbar positioning foo */
   .navbar-wrapper {
     margin-top: 20px;
   }
+
   .navbar-wrapper .container {
-    padding-left:  15px;
+    padding-left: 15px;
     padding-right: 15px;
   }
+
   .navbar-wrapper .navbar {
-    padding-left:  0;
+    padding-left: 0;
     padding-right: 0;
   }
 
@@ -179,14 +345,15 @@ footer{padding:18px 0; background:#111; color:#fff;}
   }
 }
 
-@media screen and (max-width:680px){
+@media screen and (max-width:680px) {
 
-	#maincontent{
-		width: auto;
-		float: none;
-	}
-	#sidebar{
-		width: auto;
-		float: none;
-	}
+  #maincontent {
+    width: auto;
+    float: none;
+  }
+
+  #sidebar {
+    width: auto;
+    float: none;
+  }
 }

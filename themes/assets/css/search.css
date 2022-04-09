@@ -1,22 +1,21 @@
-.container-1 input#search {
-   width: 340px;
+.container-1 input#search{
+   width: auto;
    height: 50px;
    background: #5a5a5a;
    border: none;
    font-size: 10pt;
-   float: left;
-   color:#5a5a5a;
-   padding-right: 20px;
-   padding-left: 50px;
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 10px;
-   border-radius: 10px;
-
-
-
-   -webkit-transition: background .55s ease;
+   float: right;
+   color: white;
+   padding-left: 30px;
+   padding-right: 45px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+  
+    
+     -webkit-transition: background .55s ease;
    -moz-transition: background .55s ease;
    -ms-transition: background .55s ease;
    -o-transition: background .55s ease;
    transition: background .55s ease;
-}
+ }
